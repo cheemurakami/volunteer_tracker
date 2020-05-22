@@ -36,4 +36,8 @@ class Project
     Project.new({:title => title, :id => id})
   end
 
+  def volunteers
+    
+  end
+
 end
