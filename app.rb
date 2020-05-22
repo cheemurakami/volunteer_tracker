@@ -57,3 +57,8 @@ post('/projects/:id/edit') do
   volunteer.save
   erb(:project)
 end
+
+get('/projects/:id/volunteers/:volunteer_id') do
+  @volunteer = Volunteer.find(params[:volunteer_id].to_i)
+  erb(:volunteer)
+end
