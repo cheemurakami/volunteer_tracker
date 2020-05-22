@@ -39,7 +39,7 @@ _This application will show a train system._
 | 13. User can type and create a project. (add button)[v]|
 | 14. User can select the project.(link)[v]|
 | 15. User can type and update the name of the project.(update button)[v]|
-| 16. User can delete the project.(delete button)[]|
+| 16. User can delete the project.(delete button)[v]|
 | 17. []|
 | 18. []|
 | 19. []|
