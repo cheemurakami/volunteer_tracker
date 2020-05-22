@@ -34,16 +34,16 @@ _This application will show a train system._
 | 10. Shows all volunteers. (.all method) [v]|
 | 11. Finds a volunteer by volunteer id from a database. [v]|
 | 12. Updates a volunteer name in a database. [v]|
-| 13. Deletes a volunteer from a database. []|
-| 14. Lists all volunteers belong to a project(spec 7.) []|
+| 13. Deletes a volunteer from a database. [v]|
+| 14. Lists all volunteers belong to a project(spec 7.) [v]|
 | 15. User can type and create a project. (add project button)[v]|
 | 16. User can select the project.(link)[v]|
 | 17. User can type and update the name of the project.(update button)[v]|
 | 18. User can delete the project.(delete button)[v]|
 | 19. User can type and add a volunteer. (add volunteer button)[v]|
 | 20. User can select the volunteer's name.(link)[]|
-| 21. []|
-| 222.  []|
+| 21. User can type and update the name of the volunteer.(update button)[]|
+| 22.  []|
 
 ## Known Bugs
 

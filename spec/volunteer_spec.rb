@@ -81,11 +81,25 @@ describe Volunteer do
   end
 
   context '#delete' do
-    it 'allows a user to delete a project' do
-      project = Project.new({:title => 'Teaching Kids to Code', :id => nil})
-      project.save
-      project.delete
-      expect(Project.all).to eq []
+    it 'allows a user to delete a volunteer' do
+      project = Project.new({:title => "Teaching Kids to Code", :id => nil})
+      project.save()
+      volunteer1 = Volunteer.new({:name => 'Jane', :project_id => project.id, :id => nil})
+      volunteer1.save
+      volunteer2 = Volunteer.new({:name => 'Joe', :project_id => project.id, :id => nil})
+      volunteer2.save
+      volunteer2.delete
+      expect(Volunteer.all).to eq [volunteer1]
+    end
+  end
+
+  describe("#project") do
+    it("finds the project a volunteer belongs to") do
+      project1 = Project.new({:title => "Teaching Kids to Code", :id => nil})
+      project1.save()
+      volunteer1 = Volunteer.new({:name => 'Jane', :project_id => project1.id, :id => nil})
+      volunteer1.save
+      expect(volunteer1.project).to eq(project1)
     end
   end
 
