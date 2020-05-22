@@ -68,4 +68,25 @@ describe Volunteer do
     end
   end
 
+  describe '#update' do
+    it 'allows a user to update a volunteer' do
+      project = Project.new({:title => 'Teaching Kids to Code', :id => nil})
+      project.save
+      project_id = project.id.to_i
+      volunteer1 = Volunteer.new({:name => 'Jasmine', :project_id => project_id, :id => nil})
+      volunteer1.save
+      volunteer1.update("Jane", project_id)
+      expect(volunteer1.name).to eq 'Jane'
+    end
+  end
+
+  context '#delete' do
+    it 'allows a user to delete a project' do
+      project = Project.new({:title => 'Teaching Kids to Code', :id => nil})
+      project.save
+      project.delete
+      expect(Project.all).to eq []
+    end
+  end
+
 end
