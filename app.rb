@@ -1,8 +1,8 @@
 require("sinatra")
 require('sinatra/reloader')
-require('./lib/album')
+require('./lib/project')
 require('pry')
-require('./lib/song')
+require('./lib/volunteer')
 require('pg')
 
 DB = PG.connect({:dbname => "volunteer_tracker"})
