@@ -30,8 +30,8 @@ _This application will show a train system._
 | 6. Deletes projects from a database. []|
 | 7. Lists all volunteers belong to a project. []|
 | 8. Creates a new volunteer with id and project_id. [v]|
-| 9. Saves volunteers in a database. []|
-| 10. Shows all volunteers. (.all method) []|
+| 9. Saves volunteers in a database. [v]|
+| 10. Shows all volunteers. (.all method) [v]|
 | 11. Finds a volunteer by volunteer id from a database. []|
 | 12. Updates a volunteer title in a database. []|
 | 13. Deletes volunteers from a database. []|
