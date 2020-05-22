@@ -38,12 +38,12 @@ _This application will show a train system._
 | 14. Lists all volunteers belong to a project(spec 7.) [v]|
 | 15. User can type and create a project. (add project button)[v]|
 | 16. User can select the project.(link)[v]|
-| 17. User can type and update the name of the project.(update button)[v]|
+| 17. User can type and update the name of the project(update button.)[v]|
 | 18. User can delete the project.(delete button)[v]|
-| 19. User can type and add a volunteer. (add volunteer button)[v]|
-| 20. User can select the volunteer's name.(link)[v]|
-| 21. User can type and update the name of the volunteer.(update button)[]|
-| 22.  []|
+| 19. User can type and add a volunteer(add volunteer button.)[v]|
+| 20. User can select the volunteer's name(link.)[v]|
+| 21. User can type and update the name of the volunteer.(update button)[v]|
+| 22. User can delete the volunteer(delete button.) []|
 | 23.  []|
 | 24.  []|
 
