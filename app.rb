@@ -69,3 +69,11 @@ patch('/projects/:id/volunteers/:volunteer_id') do
   volunteer.update(params[:name], @project.id)
   erb(:project)
 end
+
+delete('/projects/:id/volunteers/:volunteer_id') do
+  volunteer = Volunteer.find(params[:volunteer_id].to_i)
+  volunteer.delete
+  # @volunteer = Volunteer.find(params[:id].to_i)
+  @project = Project.find(params[:id].to_i)
+  erb(:project)
+end
