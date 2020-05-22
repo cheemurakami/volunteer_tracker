@@ -27,7 +27,7 @@ _This application will show a train system._
 | 3. Shows all projects. (.all method) [v]|
 | 4. Finds a project by project id from a database. [v]|
 | 5. Updates a project title in a database. [v]|
-| 6. Deletes projects from a database. []|
+| 6. Deletes projects from a database. [v]|
 | 7. Lists all volunteers belong to a project(#volunteer method.)[v]|
 | 8. Creates a new volunteer with id and project_id. [v]|
 | 9. Saves volunteers in a database. [v]|
