@@ -44,6 +44,8 @@ _This application will show a train system._
 | 20. User can select the volunteer's name.(link)[]|
 | 21. User can type and update the name of the volunteer.(update button)[]|
 | 22.  []|
+| 23.  []|
+| 24.  []|
 
 ## Known Bugs
 
