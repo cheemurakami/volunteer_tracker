@@ -10,7 +10,6 @@ _This application will show a Volunteer Tracker._
 
 ## Setup/Installation Requirements
 
-* _View this Repository Here on Heroku: (insert a link)_
 * _Clone Repository from GitHub : https://github.com/cheemurakami/volunteer_tracker
 * _Open folder in Virtual Studio Code (or your text editor of choice)_
 * _Open your terminal in Virtual Studio Code & type code . this will open all files associated with this app. 
