@@ -36,12 +36,12 @@ _This application will show a train system._
 | 12. Updates a volunteer title in a database. [v]|
 <!-- | 13. Deletes volunteers from a database. [v]|
 | 14. Lists all volunteers belong to a project(spec 7.) [v]| -->
-| 13. User can type and create a project. (add button)[v]|
+| 13. User can type and create a project. (add project button)[v]|
 | 14. User can select the project.(link)[v]|
 | 15. User can type and update the name of the project.(update button)[v]|
 | 16. User can delete the project.(delete button)[v]|
-| 17. []|
-| 18. []|
+| 17. User can type and add a volunteer. (add volunteer button)[v]|
+| 18. User can select the volunteer's name.(link)[]|
 | 19. []|
 | 20.  []|
 

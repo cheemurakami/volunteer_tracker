@@ -50,3 +50,10 @@ delete('/projects/:id/edit') do
   @projects = Project.all
   erb(:projects)
 end
+
+post('/projects/:id/edit') do
+  @project = Project.find(params[:id].to_i)
+  volunteer = Volunteer.new({:name => params[:name], :project_id => @project.id, :id => nil})
+  volunteer.save
+  erb(:project)
+end
