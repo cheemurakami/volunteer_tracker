@@ -1,4 +1,11 @@
 <h3>Volunteer: <%= @volunteer.name %></h3>
 
-<p> Currently a member of "<%= @volunteer.project.title %>" project</p>
+<p> Currently a member of <a href="/projects/<%= @volunteer.project_id %>">"<%= @volunteer.project.title %>"</a> project</p>
 
+
+
+
+
+<br>
+<br>
+<button class="btn btn-link"><a href="/">Home</a></button>

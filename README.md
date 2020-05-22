@@ -41,7 +41,7 @@ _This application will show a train system._
 | 17. User can type and update the name of the project.(update button)[v]|
 | 18. User can delete the project.(delete button)[v]|
 | 19. User can type and add a volunteer. (add volunteer button)[v]|
-| 20. User can select the volunteer's name.(link)[]|
+| 20. User can select the volunteer's name.(link)[v]|
 | 21. User can type and update the name of the volunteer.(update button)[]|
 | 22.  []|
 | 23.  []|
