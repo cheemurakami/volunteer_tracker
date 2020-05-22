@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application will show a train system._ 
+_This application will show a Volunteer Tracker._ 
 
 ## Setup/Installation Requirements
 
