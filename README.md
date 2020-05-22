@@ -34,8 +34,8 @@ _This application will show a train system._
 | 10. Shows all volunteers. (.all method) [v]|
 | 11. Finds a volunteer by volunteer id from a database. [v]|
 | 12. Updates a volunteer title in a database. [v]|
-| 13. Deletes volunteers from a database. [v]|
-| 14. Lists all volunteers belong to a project(spec 7.) [v]|
+<!-- | 13. Deletes volunteers from a database. [v]|
+| 14. Lists all volunteers belong to a project(spec 7.) [v]| -->
 | 15. []|
 | 16. []|
 | 17. []|
